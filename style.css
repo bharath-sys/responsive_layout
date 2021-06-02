@@ -1,0 +1,141 @@
+.container{
+  color: white;
+  left:150px;
+  top:0px;
+  background: #141624;
+  position: relative;
+  width:80%;
+  height:80vh;
+}
+.frame{
+  margin: 80px;
+  position: relative;
+  top:90px;
+  background: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.text{
+  display: grid;
+  grid-area: 1/1/2/2;
+  background: #261d38;
+}
+.text h1{
+  position: relative;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.text p{
+  bottom:30px;
+  position: relative;
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+li{
+  padding: 30px;
+  position: relative;
+  list-style: none;
+  float: left;
+}
+.footer{
+  left: 40px;
+  position: relative;
+  text-align: left;
+}
+.footer p{
+  position: relative;
+  padding: 0px;
+  margin: auto;
+}
+.footer .bold{
+  font-size: 18px;
+  font-weight: bolder;
+}
+.footer .thin{
+  font-size: 12px;
+  font-weight: lighter;
+}
+.image{
+  grid-area: 1/2/2/3;
+  background: purple;
+  overflow: hidden;
+}
+.background{
+  object-fit: cover;
+  opacity: 0.5;
+}
+@media screen and (max-width: 700px){
+.container{
+  position: relative;
+  width: 73%;
+  height:850px;
+}
+.frame{
+  right:12%;
+  width: auto;
+  position: relative;
+  height: auto;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 250px;
+}
+.image{
+  position: relative;
+  grid-area: 1/1/2/2;
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+.text{
+
+  grid-area: 2/1/3/2;
+}
+.text h1{
+  position: relative;
+  text-align: center;
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;;
+  font-size: 21px;
+}
+.text p{
+  font-weight: lighter;
+  font-family:serif;
+  top:-10%;
+  text-align: center;
+  position: relative;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 14px;
+}
+.footer{
+  top:0%;
+  left: 10%;
+  grid-area:3/1/4/2;
+  position: relative;
+  text-align: center;
+
+}
+li{
+  padding-bottom: 10%;
+  position: relative;
+  list-style: none;
+}
+.footer p{
+  position: relative;
+  padding: 0px;
+  margin: auto;
+}
+.footer .bold{
+  font-size: 18px;
+  font-weight: bolder;
+}
+.footer .thin{
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+}
