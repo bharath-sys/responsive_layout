@@ -468,18 +468,18 @@ li{
 }
 .frame{
   top:-4%;
-  left:-15%;
+  left:-10%;
   width: fit-content;
   position: relative;
   height: auto;
   display: grid;
   grid-template-rows: auto auto auto;
-  grid-template-columns: 251px;
+  grid-template-columns: 270px;
 }
 .image{
   position: relative;
   grid-area: 1/1/2/2;
-  width: 251px;
+  width: 270px;
   height: 200px;
   object-fit: cover;
 }
