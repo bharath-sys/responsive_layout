@@ -455,7 +455,7 @@ li{
   font-size: 12px;
   font-weight: lighter;
 }
-@media screen and (max-width: 396px){
+@media screen and (max-width: 403px){
 *{
   margin: 0px;
 }
