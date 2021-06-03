@@ -388,11 +388,11 @@ li{
   padding-top: 1%;
   position: relative;
   width: -webkit-fill-available;
-  height:850px;
+  height:750px;
 }
 .frame{
-  top:0%;
-  right:7%;
+  top:-5%;
+  right:1%;
   width: fit-content;
   position: relative;
   height: auto;
